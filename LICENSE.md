@@ -2,16 +2,8 @@ Copyright (c) 2017-2024 The DuoWoA authors
 
 Copyright (c) 2011-2024 Qualcomm Incorporated
 
-Copyright (c) 2019-2024 Microsoft Corporation
-
-
 This repository contains binary files sourced from Qualcomm Snapdragon 8cx
-laptops/tablets as well as the Surface Duo 1 and 2 original android firmware.
-
-
-Use of Surface Duo 1 and Surface Duo 2 firmware files is governed by the terms
-of the Surface Duo E-OS License, in which is specified the use of firmware files
-is strictly only allowed for use on Surface Duo devices.
+laptops/tablets as well as the Xiaomi original android firmware.
 
 This product incorporates copyrighted material from the DuoWoA authors.
 The license terms for these products are provided below.
