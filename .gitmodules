@@ -4,3 +4,6 @@
 [submodule "components/QC8350"]
 	path = components/QC8350
 	url = https://github.com/WOA-Project/windows_silicon_qcom_lahaina
+[submodule "components/Devices/Vayu"]
+	path = components/Devices/Vayu
+	url = https://github.com/woa-msmnile/windows_oem_xiaomi_vayu
