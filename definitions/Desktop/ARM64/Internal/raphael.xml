@@ -1,0 +1,166 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature_woa-msmnile.inf" ID="desktopsignature_woa-msmnile"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" ID="FM Radio Interface"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridge" Name="MobileFrequencyModulationService.inf" ID="MobileFrequencyModulationService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" ID="MobileHapticsService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\sTPM" Name="mismptf.inf" ID="mismptf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\UsbNcmFn" Name="UsbNcmFn.inf" ID="UsbNcmFn"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Services\MTP" Name="MTPDesktop.inf" ID="MTPDesktop"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\Bluetooth" Name="bthdefaults.inf" ID="bthdefaults"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\USBFn" Name="usbdefaults.inf" ID="usbdefaults"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS\EMBDeviceMetadata" Name="EMBDeviceMetadata.inf" ID="EMBDeviceMetadata"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Drivers\Audio\Amplifier" Name="TFA987x_amp.inf" ID="TFA987x_amp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Drivers\Touch" Name="vhidmini.inf" ID="vhidmini"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Extensions\WLAN\China" Name="Raphael_wpextwapi8150.inf" ID="Raphael_wpextwapi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Extensions\WLAN\Settings" Name="Raphael_WlanMisc.inf" ID="Raphael_WlanMisc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8150.inf" ID="qcaudminiport_Base8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Bluetooth\BTFMUART" Name="qcbtfmuart8150.inf" ID="qcbtfmuart8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Cellular\IPA" Name="qcipa8150.inf" ID="qcipa8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Graphics\DXKM" Name="qcdxkm8150.inf" ID="qcdxkm8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Graphics\GenericDcsBacklight" Name="GenericDcsBacklight.inf" ID="GenericDcsBacklight"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Sensor\SSC" Name="Raphael_Sensors.inf" ID="Raphael_Sensors"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\I2C" Name="qci2c8150.inf" ID="qci2c8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\SPI" Name="qcspi8150.inf" ID="qcspi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\TrEE" Name="QcTrEE8150.inf" ID="QcTrEE8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\UART" Name="qcuart8150.inf" ID="qcuart8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\WLAN" Name="qcwlan8150.inf" ID="qcwlan8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\ACDB" Name="Raphael_acsp.inf" ID="Raphael_acsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\AudMiniport" Name="Raphael_audminiext.inf" ID="Raphael_audminiext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\Device" Name="Raphael_auddevext.inf" ID="Raphael_auddevext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera" Name="Raphael_camfrontext.inf" ID="Raphael_camfrontext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera" Name="Raphael_camrearext.inf" ID="Raphael_camrearext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\HexagonLoader" Name="qcpilEXT8150.inf" ID="qcpilEXT8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Sensors" Name="Raphael_sensorsconfig.inf" ID="Raphael_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="mcfg_subsys_ext8150.inf" ID="mcfg_subsys_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="qcsubsys_ext_adsp8150.inf" ID="qcsubsys_ext_adsp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="qcsubsys_ext_cdsp8150.inf" ID="qcsubsys_ext_cdsp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="qcsubsys_ext_mpss8150.inf" ID="qcsubsys_ext_mpss8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="qcsubsys_ext_scss8150.inf" ID="qcsubsys_ext_scss8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Settings" Name="oled.inf" ID="oled"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Settings" Name="Raphael_DeviceInfo.inf" ID="Raphael_DeviceInfo"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Orientation" Name="AudioService8150.inf" ID="AudioService8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
+            <!-- Not compatible on K20Pro -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege_ffu8150.inf" ID="qccamjpege_ffu8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\Platform" Name="qccamplatform8150.inf" ID="qccamplatform8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\CCID" Name="qcccidbridge8150.inf" ID="qcccidbridge8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\DataBus" Name="qcdatabus8150.inf" ID="qcdatabus8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\DiagCSI" Name="qcdiagcsi8150.inf" ID="qcdiagcsi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\DiagRouter" Name="qcdiagrouter8150.inf" ID="qcdiagrouter8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\DPL" Name="qcdplbridge8150.inf" ID="qcdplbridge8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\GSI" Name="qcgsi8150.inf" ID="qcgsi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\IPCRouter" Name="qcipcrouter8150.inf" ID="qcipcrouter8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\LinkLocal" Name="qclinklocal.wp8150.inf" ID="qclinklocal.wp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\LteCoexistanceManager" Name="QcLteCoexMgr8150.inf" ID="QcLteCoexMgr8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\MBB_QBI" Name="qcmbb8150.inf" ID="qcmbb8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\MBB" Name="qcmbb.wp8150.inf" ID="qcmbb.wp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ModemBridge" Name="qcmbrg8150.inf" ID="qcmbrg8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteAT" Name="qcremoteat8150.inf" ID="qcremoteat8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteFS\ReadOnlyFS1FS2" Name="qcremotefs8150.inf" ID="qcremotefs8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RevRmnet" Name="qcrevrmnet8150.inf" ID="qcrevrmnet8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge8150.inf" ID="qcrmnetbridge8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm.inf" ID="qcthermalmdm"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\FMRadio" Name="qcfmtransport8150.inf" ID="qcfmtransport8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\GPS" Name="qcgnss8150.inf" ID="qcgnss8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Graphics\QDCM" Name="qdcmlib8150.inf" ID="qdcmlib8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\HALs\Timer" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SAR" Name="qSarMgr8150.inf" ID="qSarMgr8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GLINK" Name="qcglink8150.inf" ID="qcglink8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GPI" Name="qcgpi8150.inf" ID="qcgpi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QDSS" Name="qcqdss8150.inf" ID="qcqdss8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QWPP" Name="qwpp8150.inf" ID="qwpp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\GPIO" Name="qcgpio8150.inf" ID="qcgpio8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\HexagonLoader" Name="qcpil8150.inf" ID="qcpil8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\IOMMU" Name="qciommu8150.inf" ID="qciommu8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\LED" Name="qchwnled8150.inf" ID="qchwnled8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PCIe" Name="qcppx8150.inf" ID="qcppx8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\Apps" Name="qcpmicapps8150.inf" ID="qcpmicapps8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\Core" Name="qcpmic8150.inf" ID="qcpmic8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\Extension" Name="qcpmicext8150.inf" ID="qcpmicext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\ExternalIC" Name="qcpmicEIC8150.inf" ID="qcpmicEIC8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8150.inf" ID="QcPmicGlink8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8150.inf" ID="qcpmicgpio8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\TypeCController" Name="qcpmictcc8150.inf" ID="qcpmictcc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PowerManagement" Name="qcpep.wp8150.inf" ID="qcpep.wp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8150.inf" ID="qccdi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen8150.inf" ID="qcrpen8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\SMMU" Name="qcsmmu8150.inf" ID="qcsmmu8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\SPMI" Name="qcspmi8150.inf" ID="qcspmi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\BusAccessModule" Name="qckmbam8150.inf" ID="qckmbam8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\CacheController" Name="qcsyscache8150.inf" ID="qcsyscache8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\SCM" Name="qcscm8150.inf" ID="qcscm8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8150.inf" ID="qcadc8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8150.inf" ID="qcconnectionsecurity8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\TypeCPortManager" Name="qcusbctcpm8150.inf" ID="qcusbctcpm8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\UCSI" Name="qcusbcucsi8150.inf" ID="qcusbcucsi8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USB\USBAudio" Name="QcUSBAudio8150.inf" ID="QcUSBAudio8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBFn\SuperSpeedController" Name="qcusbfn8150.inf" ID="qcusbfn8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter8150.inf" ID="QcUsbFnSsFilter8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\USBHost" Name="QcXhciFilter8150.inf" ID="QcXhciFilter8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\VibrationMotor" Name="qchwnhaptics8150.inf" ID="qchwnhaptics8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8150.inf" ID="QCListenSM_swc_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM8150.inf" ID="QCListenSM8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8150.inf" ID="qcwmrilextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\FMRadio" Name="qcfmtransportextension8150.inf" ID="qcfmtransportextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\ProvisioningPkgs" Name="qcppmsettings8150.inf" ID="qcppmsettings8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
+        </BaseDriverPackages>
+    </Drivers>
+    <AppX>
+        <AppXPackages>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Microsoft.BlockandFilterglobal_8wekyb3d8bbwe" LicenseFile="Comms.Apps.CommsEnhancement_License_arm.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Microsoft.BlockandFilter_8wekyb3d8bbwe"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Messaging" Name="Comms.Apps.Messaging_ARM64.AppxBundle" ID="Microsoft.Messaging_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Messaging_License.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Phone" Name="Comms.Apps.Calls_ARM.appxbundle" ID="Microsoft.CommsPhone_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Calls_License.xml"/>
+        </AppXPackages>
+    </AppX>
+</FeatureManifest>

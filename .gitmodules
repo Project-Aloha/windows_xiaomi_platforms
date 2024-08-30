@@ -7,3 +7,6 @@
 [submodule "components/Devices/Vayu"]
 	path = components/Devices/Vayu
 	url = https://github.com/woa-msmnile/windows_oem_xiaomi_vayu
+[submodule "components/Devices/Raphael"]
+	path = components/Devices/Raphael
+	url = https://github.com/woa-msmnile/Raphael
