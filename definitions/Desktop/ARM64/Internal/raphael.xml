@@ -142,6 +142,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8150.inf" ID="qcusbfndefaults8150"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
