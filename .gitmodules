@@ -10,3 +10,6 @@
 [submodule "components/Devices/Raphael"]
 	path = components/Devices/Raphael
 	url = https://github.com/woa-msmnile/Raphael
+[submodule "components/QC8250"]
+	path = components/QC8250
+	url = https://github.com/WOA-Project/windows_silicon_qcom_kona
