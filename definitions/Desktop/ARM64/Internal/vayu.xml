@@ -15,9 +15,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas2562_win.inf" ID="tas2562_win"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Graphics\Monitor" Name="x3p_panel.inf" ID="x3p_panel"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\tas2562_win" Name="tas2562_win.inf" ID="tas2562_win"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuMT256GARAT4U31ExtnPackage.inf" ID="XiaomiSfuMT256GARAT4U31ExtnPackage"/>
@@ -154,6 +154,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8150.inf" ID="qcusbfndefaults8150"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
