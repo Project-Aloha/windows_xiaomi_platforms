@@ -28,7 +28,6 @@
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Audio\AudMiniport" Name="x3p_audmini.inf" ID="x3p_audmini"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Battery" Name="x3p_battminiclass.inf" ID="x3p_battminiclass"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Bluetooth\BTFMUART" Name="x3p_btfmuart.inf" ID="x3p_btfmuart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\AVStream" Name="x3p_camavs.inf" ID="x3p_camavs"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\ISP" Name="x3p_camisp.inf" ID="x3p_camisp"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Cellular\IPA" Name="x3p_ipa.inf" ID="x3p_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Graphics\DXKM" Name="x3p_dx.inf" ID="x3p_dx"/>
@@ -66,6 +65,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AVStream" Name="qccamavs8150.inf" ID="qccamavs8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8150.inf" ID="qccamauxsensor8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\Flash" Name="qccamflash8150.inf" ID="qccamflash8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\FrontSensor" Name="qccamfrontsensor8150.inf" ID="qccamfrontsensor8150"/>
