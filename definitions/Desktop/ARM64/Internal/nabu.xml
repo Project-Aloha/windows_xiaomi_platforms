@@ -4,57 +4,41 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" ID="FM Radio Interface"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridge" Name="MobileFrequencyModulationService.inf" ID="MobileFrequencyModulationService"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" ID="MobileHapticsService"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\sTPM" Name="mismptf.inf" ID="mismptf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\UsbNcmFn" Name="UsbNcmFn.inf" ID="UsbNcmFn"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Services\MTP" Name="MTPDesktop.inf" ID="MTPDesktop"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\Bluetooth" Name="bthdefaults.inf" ID="bthdefaults"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\USBFn" Name="usbdefaults.inf" ID="usbdefaults"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS\EMBDeviceMetadata" Name="EMBDeviceMetadata.inf" ID="EMBDeviceMetadata"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas2562_win.inf" ID="tas2562_win"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Graphics\Monitor" Name="x3p_panel.inf" ID="x3p_panel"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuMT256GARAT4U31ExtnPackage.inf" ID="XiaomiSfuMT256GARAT4U31ExtnPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuSDINFDK4ExtnPackage.inf" ID="XiaomiSfuSDINFDK4ExtnPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Firmware\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1FwPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1FwPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Firmware\Storage" Name="XiaomiSfuMT256GARAT4U31FwPackage.inf" ID="XiaomiSfuMT256GARAT4U31FwPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Firmware\Storage" Name="XiaomiSfuSDINFDK4FwPackage.inf" ID="XiaomiSfuSDINFDK4FwPackage"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Audio\AudMiniport" Name="x3p_audmini.inf" ID="x3p_audmini"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Battery" Name="x3p_battminiclass.inf" ID="x3p_battminiclass"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Bluetooth\BTFMUART" Name="x3p_btfmuart.inf" ID="x3p_btfmuart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\ISP" Name="x3p_camisp.inf" ID="x3p_camisp"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Cellular\IPA" Name="x3p_ipa.inf" ID="x3p_ipa"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Graphics\DXKM" Name="x3p_dx.inf" ID="x3p_dx"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\I2C" Name="x3p_i2c.inf" ID="x3p_i2c"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\SPI" Name="x3p_spi.inf" ID="x3p_spi"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\TrEE" Name="x3p_tree.inf" ID="x3p_tree"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\UART" Name="x3p_uart.inf" ID="x3p_uart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\WLAN" Name="x3p_wlan.inf" ID="x3p_wlan"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Audio\ACDB" Name="x3p_acsp.inf" ID="x3p_acsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Audio\AudMiniport" Name="x3p_audminiext.inf" ID="x3p_audminiext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Audio\Device" Name="x3p_auddevext.inf" ID="x3p_auddevext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Bluetooth" Name="x3p_btext.inf" ID="x3p_btext"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Camera\AuxilarySensor" Name="x3p_camauxext.inf" ID="x3p_camauxext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Camera\FrontSensor" Name="x3p_camfrontext.inf" ID="x3p_camfrontext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Camera\RearSensor" Name="x3p_camrearext.inf" ID="x3p_camrearext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\HexagonLoader" Name="x3p_pilext.inf" ID="x3p_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\PMIC\BatteryCurrentLimiter" Name="x3p_fgbclext.inf" ID="x3p_fgbclext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Sensors" Name="x3p_sensorsconfig.inf" ID="x3psensorsconfig"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Subsystems\Audio" Name="x3p_subextadsp.inf" ID="x3p_subextadsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Subsystems\Compute" Name="x3p_subextcdsp.inf" ID="x3p_subextcdsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Subsystems\Modem" Name="x3p_subextmpss.inf" ID="x3p_subextmpss"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Subsystems\ModemConfig" Name="x3p_mcfg.inf" ID="x3p_mcfg"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Extensions\Subsystems\Sensors" Name="x3p_subextscss.inf" ID="x3p_subextscss"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Settings" Name="x3p_DeviceInfo.inf" ID="x3p_DeviceInfo"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
-		    <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\cs35l41" Name="cs35l41.inf" ID="cs35l41"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Extensions\NoModem" Name="MiPad5_subextmpss_nm.inf" ID="MiPad5_subextmpss_nm"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Audio\AudMiniport" Name="MiPad5_audmini.inf" ID="MiPad5_audmini"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Battery" Name="MiPad5_battminiclass.inf" ID="MiPad5_battminiclass"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Bluetooth\BTFMUART" Name="MiPad5_btfmuart.inf" ID="MiPad5_btfmuart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Camera\ISP" Name="MiPad5_camisp.inf" ID="MiPad5_camisp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Graphics\DXKM" Name="MiPad5_dx.inf" ID="MiPad5_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\I2C" Name="MiPad5_i2c.inf" ID="MiPad5_i2c"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\SPI" Name="MiPad5_spi.inf" ID="MiPad5_spi"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\TrEE" Name="MiPad5_tree.inf" ID="MiPad5_tree"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\UART" Name="MiPad5_uart.inf" ID="MiPad5_uart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\XMKB" Name="NanosicFilter.inf" ID="NanosicFilter"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\WLAN" Name="MiPad5_wlan.inf" ID="MiPad5_wlan"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\ACDB" Name="MiPad5_acsp.inf" ID="MiPad5_acsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\AudMiniport" Name="MiPad5_audminiext.inf" ID="MiPad5_audminiext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\Device" Name="MiPad5_auddevext.inf" ID="MiPad5_auddevext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Bluetooth" Name="MiPad5_btext.inf" ID="MiPad5_btext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\FrontSensor" Name="MiPad5_camfrontext.inf" ID="MiPad5_camfrontext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\RearSensor" Name="MiPad5_camrearext.inf" ID="MiPad5_camrearext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\HexagonLoader" Name="MiPad5_pilext.inf" ID="MiPad5_pilext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Sensors" Name="MiPad5_sensorsconfig.inf" ID="MiPad5_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Audio" Name="MiPad5_subextadsp.inf" ID="MiPad5_subextadsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Compute" Name="MiPad5_subextcdsp.inf" ID="MiPad5_subextcdsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Modem" Name="MiPad5_subextmpss.inf" ID="MiPad5_subextmpss"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Sensors" Name="MiPad5_subextscss.inf" ID="MiPad5_subextscss"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Settings" Name="MiPad5_DeviceInfo.inf" ID="MiPad5_DeviceInfo"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
+		    <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
@@ -158,22 +142,6 @@
     </Drivers>
     <AppX>
         <AppXPackages>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Microsoft.BlockandFilterglobal_8wekyb3d8bbwe" LicenseFile="Comms.Apps.CommsEnhancement_License_arm.xml"/>
-			<PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Microsoft.BlockandFilter_8wekyb3d8bbwe"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
-            <!--PackageFile Path="$(mspackageroot)\apps\IPA\Airwaves" Name="LumiaWOA.Airwaves_btf4vqatnxdpt.appxbundle" ID="LumiaWOA.Airwaves_btf4vqatnxdpt"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Messaging" Name="Comms.Apps.Messaging_ARM64.AppxBundle" ID="Microsoft.Messaging_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Messaging_License.xml"/>
-            <PackageFile Path="$(mspackageroot)\apps\IPA\Phone" Name="Comms.Apps.Calls_ARM.appxbundle" ID="Microsoft.CommsPhone_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Calls_License.xml"/-->
         </AppXPackages>
     </AppX>
 </FeatureManifest>

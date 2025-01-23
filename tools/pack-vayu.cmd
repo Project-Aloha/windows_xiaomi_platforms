@@ -48,6 +48,7 @@ echo OnlineUpdater.cmd >> filelist_vayu.txt
 echo README.md >> filelist_vayu.txt
 
 cd ..
+"tools\7z.exe" a -tzip ..\Xiaomi-Drivers-Release\POCOX3Pro-Drivers-Desktop.zip @tools\filelist_vayu.txt -scsWIN																											
 "tools\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\POCOX3Pro-Drivers-Desktop.7z @tools\filelist_vayu.txt -scsWIN
 cd tools
 
