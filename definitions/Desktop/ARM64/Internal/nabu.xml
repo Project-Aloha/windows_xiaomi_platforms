@@ -35,6 +35,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Compute" Name="MiPad5_subextcdsp.inf" ID="MiPad5_subextcdsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Modem" Name="MiPad5_subextmpss.inf" ID="MiPad5_subextmpss"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Sensors" Name="MiPad5_subextscss.inf" ID="MiPad5_subextscss"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Settings" Name="MiPad5_DeviceInfo.inf" ID="MiPad5_DeviceInfo"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
 		    <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
@@ -128,7 +129,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext8150.inf" ID="qcWMRil_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\FMRadio" Name="qcfmtransportextension8150.inf" ID="qcfmtransportextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8150.inf" ID="qcWMRil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8150.inf" ID="qcimssink_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8150.inf" ID="qcimssrc_mbb_ext8150"/>
