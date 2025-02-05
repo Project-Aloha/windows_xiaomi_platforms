@@ -29,6 +29,7 @@ echo pause >> ..\OfflineUpdater.cmd
 echo apps\IPA\Frameworks >> filelist_nabu.txt											 
 echo CODE_OF_CONDUCT.md >> filelist_nabu.txt
 echo components\ANYSOC\Changelog >> filelist_nabu.txt
+echo components\ANYSOC\Hardware >> filelist_nabu.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_nabu.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> filelist_nabu.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio >> filelist_nabu.txt
