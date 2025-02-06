@@ -15,8 +15,9 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas2562_win.inf" ID="tas2562_win"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas256X_win.inf" ID="tas256X_win"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Fingerprint" Name="WbdiSpi.inf" ID="WbdiSpi"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Graphics\Monitor" Name="x3p_panel.inf" ID="x3p_panel"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage"/>
@@ -31,6 +32,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\ISP" Name="x3p_camisp.inf" ID="x3p_camisp"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Cellular\IPA" Name="x3p_ipa.inf" ID="x3p_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Graphics\DXKM" Name="x3p_dx.inf" ID="x3p_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\HexagonLoader" Name="x3p_pil.inf" ID="x3p_pil"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\I2C" Name="x3p_i2c.inf" ID="x3p_i2c"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\SPI" Name="x3p_spi.inf" ID="x3p_spi"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\TrEE" Name="x3p_tree.inf" ID="x3p_tree"/>
@@ -106,7 +108,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QDSS" Name="qcqdss8150.inf" ID="qcqdss8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Diagnostic\QWPP" Name="qwpp8150.inf" ID="qwpp8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\GPIO" Name="qcgpio8150.inf" ID="qcgpio8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\HexagonLoader" Name="qcpil8150.inf" ID="qcpil8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\IOMMU" Name="qciommu8150.inf" ID="qciommu8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\LED" Name="qchwnled8150.inf" ID="qchwnled8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PCIe" Name="qcppx8150.inf" ID="qcppx8150"/>
