@@ -13,3 +13,6 @@
 [submodule "components/QC8250"]
 	path = components/QC8250
 	url = https://github.com/WOA-Project/windows_silicon_qcom_kona
+[submodule "components/QC8998"]
+	path = components/QC8998
+	url = https://github.com/WOA-Project/windows_silicon_qcom_nazgul
