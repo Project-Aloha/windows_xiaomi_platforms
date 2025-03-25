@@ -17,7 +17,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas256X_win.inf" ID="tas256X_win"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Fingerprint" Name="WbdiSpi.inf" ID="WbdiSpi"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Graphics\Monitor" Name="x3p_panel.inf" ID="x3p_panel"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage"/>
@@ -27,7 +26,6 @@
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Firmware\Storage" Name="XiaomiSfuMT256GARAT4U31FwPackage.inf" ID="XiaomiSfuMT256GARAT4U31FwPackage"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Firmware\Storage" Name="XiaomiSfuSDINFDK4FwPackage.inf" ID="XiaomiSfuSDINFDK4FwPackage"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Audio\AudMiniport" Name="x3p_audmini.inf" ID="x3p_audmini"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Battery" Name="x3p_battminiclass.inf" ID="x3p_battminiclass"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Bluetooth\BTFMUART" Name="x3p_btfmuart.inf" ID="x3p_btfmuart"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\ISP" Name="x3p_camisp.inf" ID="x3p_camisp"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Cellular\IPA" Name="x3p_ipa.inf" ID="x3p_ipa"/>
@@ -66,6 +64,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbatminiclass8150.inf" ID="qcbatminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AVStream" Name="qccamavs8150.inf" ID="qccamavs8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8150.inf" ID="qccamauxsensor8150"/>
