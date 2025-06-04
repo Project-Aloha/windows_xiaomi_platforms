@@ -17,7 +17,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\Amplifier" Name="tas256X_win.inf" ID="tas256X_win"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Audio\AudFilter" Name="AudFilter.inf" ID="AudFilter"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Graphics\Monitor" Name="x3p_panel.inf" ID="x3p_panel"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="XiaomiSfuKLUEG8UHDCB0E1ExtnPackage"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Extensions\Storage" Name="XiaomiSfuMT256GARAT4U31ExtnPackage.inf" ID="XiaomiSfuMT256GARAT4U31ExtnPackage"/>
@@ -30,6 +29,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Camera\ISP" Name="x3p_camisp.inf" ID="x3p_camisp"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Cellular\IPA" Name="x3p_ipa.inf" ID="x3p_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Graphics\DXKM" Name="x3p_dx.inf" ID="x3p_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\Sensors\SSC" Name="x3p_sensors.inf" ID="x3p_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\HexagonLoader" Name="x3p_pil.inf" ID="x3p_pil"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\I2C" Name="x3p_i2c.inf" ID="x3p_i2c"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Vayu\Platform\Drivers\SOC\SPI" Name="x3p_spi.inf" ID="x3p_spi"/>
@@ -64,7 +64,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8150.inf" ID="qcfgbcl8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryManager" Name="qcbattmngr8150.inf" ID="qcbattmngr8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbatminiclass8150.inf" ID="qcbatminiclass8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8150.inf" ID="qcbattminiclass8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8150.inf" ID="qcbtaddvscregistry8150"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AVStream" Name="qccamavs8150.inf" ID="qccamavs8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8150.inf" ID="qccamauxsensor8150"/>
@@ -99,7 +99,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\HALs\Timer" Name="HalExtQCTimer8150.inf" ID="HalExtQCTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer8150.inf" ID="HalExtQCWdogTimer8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SAR" Name="qSarMgr8150.inf" ID="qSarMgr8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Sensors\SSC" Name="qcSensors8150.inf" ID="qcSensors8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Buses\GLINK" Name="qcglink8150.inf" ID="qcglink8150"/>
