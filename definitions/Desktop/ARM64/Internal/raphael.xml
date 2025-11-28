@@ -21,23 +21,20 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Drivers\Touch" Name="vhidmini.inf" ID="vhidmini"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Extensions\WLAN\China" Name="Raphael_wpextwapi8150.inf" ID="Raphael_wpextwapi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Extensions\WLAN\Settings" Name="Raphael_WlanMisc.inf" ID="Raphael_WlanMisc"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8150.inf" ID="qcaudminiport_Base8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Audio\AudMiniport" Name="Raphael_audminiport.inf" ID="Raphael_audminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Bluetooth\BTFMUART" Name="qcbtfmuart8150.inf" ID="qcbtfmuart8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Cellular\IPA" Name="qcipa8150.inf" ID="qcipa8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Cellular\IPA" Name="Raphael_ipa.inf" ID="Raphael_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Graphics\DXKM" Name="qcdxkm8150.inf" ID="qcdxkm8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Graphics\GenericDcsBacklight" Name="GenericDcsBacklight.inf" ID="GenericDcsBacklight"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Sensor\SSC" Name="Raphael_Sensors.inf" ID="Raphael_Sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\I2C" Name="qci2c8150.inf" ID="qci2c8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\SPI" Name="qcspi8150.inf" ID="qcspi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\TrEE" Name="QcTrEE8150.inf" ID="QcTrEE8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\SOC\UART" Name="qcuart8150.inf" ID="qcuart8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\Subsystems" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\WLAN" Name="qcwlan8150.inf" ID="qcwlan8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Drivers\WLAN" Name="Raphael_wlan8150.inf" ID="Raphael_wlan8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\ACDB" Name="Raphael_acsp.inf" ID="Raphael_acsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\AudMiniport" Name="Raphael_audminiext.inf" ID="Raphael_audminiext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Audio\Device" Name="Raphael_auddevext.inf" ID="Raphael_auddevext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera" Name="Raphael_camfrontext.inf" ID="Raphael_camfrontext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera" Name="Raphael_camrearext.inf" ID="Raphael_camrearext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera\FrontSensor" Name="Raphael_camfrontext.inf" ID="Raphael_camfrontext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Camera\RearSensor" Name="Raphael_camrearext.inf" ID="Raphael_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\HexagonLoader" Name="qcpilEXT8150.inf" ID="qcpilEXT8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Sensors" Name="Raphael_sensorsconfig.inf" ID="Raphael_sensorsconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Raphael\Platform\Extensions\Subsystems" Name="mcfg_subsys_ext8150.inf" ID="mcfg_subsys_ext8150"/>
@@ -113,6 +110,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\CacheController" Name="qcsyscache8150.inf" ID="qcsyscache8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\System\SCM" Name="qcscm8150.inf" ID="qcscm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\UART" Name="qcuart8150.inf" ID="qcuart8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8150.inf" ID="qcadc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8150.inf" ID="qcsubsys8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8150.inf" ID="qcconnectionsecurity8150"/>
