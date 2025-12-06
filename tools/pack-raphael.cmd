@@ -37,7 +37,7 @@ echo OnlineUpdater.cmd >> filelist_raphael.txt
 echo README.md >> filelist_raphael.txt
 
 cd ..
-"tools\7z.exe" a -t7z ..\RedmiK20Pro-Drivers-Release\RedmiK20Pro-Drivers-Desktop.7z @tools\filelist_raphael.txt -scsWIN
+"tools\7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z ..\RedmiK20Pro-Drivers-Release\RedmiK20Pro-Drivers-Desktop.7z @tools\filelist_raphael.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd

@@ -44,7 +44,7 @@ echo OnlineUpdater.cmd >> filelist_nabu.txt
 echo README.md >> filelist_nabu.txt
 
 cd ..
-"tools\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\MiPad5-Drivers-Desktop.7z @tools\filelist_nabu.txt -scsWIN
+"tools\7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\MiPad5-Drivers-Desktop.7z @tools\filelist_nabu.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd

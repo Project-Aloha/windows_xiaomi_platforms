@@ -48,8 +48,7 @@ echo OnlineUpdater.cmd >> filelist_surya.txt
 echo README.md >> filelist_surya.txt
 
 cd ..
-"tools\7z.exe" a -tzip ..\Xiaomi-Drivers-Release\POCOX3NFC-Drivers-Desktop.zip @tools\filelist_surya.txt -scsWIN																											
-"tools\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\POCOX3NFC-Drivers-Desktop.7z @tools\filelist_surya.txt -scsWIN
+"tools\7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\POCOX3NFC-Drivers-Desktop.7z @tools\filelist_surya.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd
