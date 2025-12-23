@@ -16,3 +16,6 @@
 [submodule "components/QC8998"]
 	path = components/QC8998
 	url = https://github.com/WOA-Project/windows_silicon_qcom_nazgul
+[submodule "components/QC7150"]
+	path = components/QC7150
+	url = https://github.com/Project-Aloha/windows_silicon_qcom_moorea.git
