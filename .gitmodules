@@ -19,3 +19,6 @@
 [submodule "components/QC7150"]
 	path = components/QC7150
 	url = https://github.com/Project-Aloha/windows_silicon_qcom_moorea.git
+[submodule "components/Devices/Surya"]
+	path = components/Devices/Surya
+	url = https://github.com/Project-Aloha/windows_oem_xiaomi_surya.git
