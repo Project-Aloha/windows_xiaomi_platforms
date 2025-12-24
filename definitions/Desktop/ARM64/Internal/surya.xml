@@ -44,14 +44,13 @@
 		    <DriverPackageFile Path="$(mspackageroot)\components\Devices\Surya\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Surya\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\ADCM" Name="qcadcm7150.inf" ID="qcadcm7150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\Device" Name="qcauddev7150.inf" ID="qcauddev7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc7150.inf" ID="QCListenSM_swc7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\Orientation" Name="AudioService7150.inf" ID="AudioService7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc7150.inf" ID="qcadsprpc7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd7150.inf" ID="qcadsprpcd7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Audio\Slimbus" Name="qcslimbus7150.inf" ID="qcslimbus7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl7150.inf" ID="qcfgbcl7150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Battery\BatteryManager" Name="qcbatmngr7150.inf" ID="qcbatmngr7150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Battery\BatteryManager" Name="qcbattmngr7150.inf" ID="qcbattmngr7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass7150.inf" ID="qcbattminiclass7150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry7150.inf" ID="qcbtaddvscregistry7150"/>
             <!--DriverPackageFile Path="$(mspackageroot)\components\QC7150\Drivers\Camera\JPEGEncoder" Name="qccamjpege7150.inf" ID="qccamjpege7150"/>
