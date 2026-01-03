@@ -32,7 +32,7 @@ echo components\ANYSOC\Changelog >> filelist_nabu.txt
 echo components\ANYSOC\Hardware >> filelist_nabu.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_nabu.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> filelist_nabu.txt
-echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio >> filelist_nabu.txt
+echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridgeUser >> filelist_nabu.txt
 echo components\Devices\Nabu >> filelist_nabu.txt
 echo components\QC8150 >> filelist_nabu.txt
 echo definitions\Desktop\ARM64\Internal\nabu.xml >> filelist_nabu.txt
@@ -44,7 +44,6 @@ echo OnlineUpdater.cmd >> filelist_nabu.txt
 echo README.md >> filelist_nabu.txt
 
 cd ..
-"tools\7z.exe" a -tzip ..\Xiaomi-Drivers-Release\MiPad5-Drivers-Desktop.zip @tools\filelist_nabu.txt -scsWIN
 "tools\7z.exe" a -t7z ..\Xiaomi-Drivers-Release\MiPad5-Drivers-Desktop.7z @tools\filelist_nabu.txt -scsWIN
 cd tools
 
