@@ -22,3 +22,6 @@
 [submodule "components/Devices/Surya"]
 	path = components/Devices/Surya
 	url = https://github.com/Project-Aloha/windows_oem_xiaomi_surya.git
+[submodule "components/Devices/Nabu"]
+	path = components/Devices/Nabu
+	url = https://github.com/Project-Aloha/windows_oem_xiaomi_nabu
