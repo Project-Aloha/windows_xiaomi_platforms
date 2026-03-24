@@ -1,10 +1,16 @@
 
-# Windows Driver pack for XiaoMi/Redmi/Poco platforms
+# Windows Driver pack for Xiaomi platforms
 
-This repository contains driver binary files for XiaoMi/Redmi/Poco.
-All driver binary files form a board support package to be used on XiaoMi/Redmi/Poco devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for Xiaomi devices.
+All driver binary files form a board support package to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+
+# Supported Devices
+- POCO X3 Pro
+- POCO X3
+- Xiaomi Mi 9T Pro / Redmi K20 Pro
+- Xiaomi Pad 5
 
 ## Resources
 
