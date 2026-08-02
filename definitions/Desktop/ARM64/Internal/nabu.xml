@@ -42,7 +42,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ADCM" Name="qcadcm8150.inf" ID="qcadcm8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Device" Name="qcauddev8150.inf" ID="qcauddev8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8150.inf" ID="QCListenSM_swc8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Orientation" Name="AudioService8150.inf" ID="AudioService8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8150.inf" ID="qcadsprpc8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8150.inf" ID="qcadsprpcd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Audio\Slimbus" Name="qcslimbus8150.inf" ID="qcslimbus8150"/>
