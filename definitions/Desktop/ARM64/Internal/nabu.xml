@@ -9,6 +9,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\USBFn" Name="usbdefaults.inf" ID="usbdefaults"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480" Name="fsa4480.inf" ID="fsa4480"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\cs35l41" Name="cs35l41.inf" ID="cs35l41"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\OrientationMonitor" Name="OrientationMonitor.inf" ID="OrientationMonitor"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Audio\AudMiniport" Name="MiPad5_audmini.inf" ID="MiPad5_audmini"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Battery" Name="MiPad5_battminiclass.inf" ID="MiPad5_battminiclass"/>
