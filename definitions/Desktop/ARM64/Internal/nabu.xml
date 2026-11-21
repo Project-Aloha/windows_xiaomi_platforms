@@ -18,7 +18,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Graphics\DXKM" Name="MiPad5_dx.inf" ID="MiPad5_dx"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Sensors\SSC" Name="Mipad5_sensors.inf" ID="Mipad5_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\I2C" Name="MiPad5_i2c.inf" ID="MiPad5_i2c"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\PMIC\ExternalIC" Name="pad5_pmiceic.inf" ID="pad5_pmiceic"/-->
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\PMIC\ExternalIC" Name="pad5_pmiceic.inf" ID="pad5_pmiceic"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\SPI" Name="MiPad5_spi.inf" ID="MiPad5_spi"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\TrEE" Name="MiPad5_tree.inf" ID="MiPad5_tree"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\UART" Name="MiPad5_uart.inf" ID="MiPad5_uart"/>
