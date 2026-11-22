@@ -25,6 +25,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\Bluetooth\BTFMUART_HSP" Name="Haydn_btfmuart_hsp8350.inf" ID="Haydn_btfmuart_hsp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\Cellular\IPA" Name="Haydn_ipa.inf" ID="Haydn_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\EVA" Name="Haydn_eva.inf" ID="Haydn_eva"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\Sensors\SSC" Name="Haydn_Sensors.inf" ID="Haydn_Sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\Subsystems\ModemProcessor" Name="Haydn_qcmpss8350.inf" ID="Haydn_qcmpss8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Drivers\WLAN\Core" Name="Haydn_wlan.inf" ID="Haydn_wlan"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Audio\ACDB" Name="Haydn_acsp.inf" ID="Haydn_acsp"/>
@@ -35,11 +36,13 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\HexagonLoader\PIL" Name="Haydn_pilext8350.inf" ID="Haydn_pilext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\PMIC\Core" Name="Haydn_pmicext8350.inf" ID="Haydn_pmicext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Sensors\MTP" Name="Haydn_SensorsConfig.inf" ID="Haydn_SensorsConfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\SOC\TrEE\OEM" Name="Haydn_TreeExtOem8350.inf" ID="Haydn_TreeExtOem8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Subsystems\Audio" Name="Haydn_ext_adsp8350.inf" ID="Haydn_ext_adsp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Subsystems\Compute" Name="Haydn_ext_cdsp8350.inf" ID="Haydn_ext_cdsp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Subsystems\Modem" Name="Haydn_ext_mpss8350.inf" ID="Haydn_ext_mpss8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Subsystems\ModemConfig" Name="Haydn_mcfg8350.inf" ID="Haydn_mcfg8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Platform\Extensions\Subsystems\Sensors" Name="Haydn_ext_scss8350.inf" ID="Haydn_ext_scss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Haydn\Settings" Name="Haydn_DeviceInfo.inf" ID="Haydn_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8350.inf" ID="QCListenSM_swc8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Orientation" Name="AudioService8350.inf" ID="AudioService8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8350.inf" ID="qcadsprpc8350"/>
@@ -84,7 +87,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\AlwaysOnCVSensor" Name="qcAlwaysOnCVSensor.inf" ID="qcAlwaysOnCVSensor"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\HumanPresenceSensor" Name="qcHumanPresenceSensor.inf" ID="qcHumanPresenceSensor"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Sensors\SSC" Name="qcSensors.inf" ID="qcSensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GLINK" Name="qcglink8350.inf" ID="qcglink8350"/>
@@ -112,9 +114,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\BusAccessModule" Name="qckmbam8350.inf" ID="qckmbam8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\CacheController" Name="qcsyscache8350.inf" ID="qcsyscache8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SCM" Name="qcscm.inf" ID="qcscm"/>
-            <!--
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SecApp" Name="qcsecapp.inf" ID="qcsecapp"/>
-            -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\UART" Name="qcuart8350.inf" ID="qcuart8350"/>
@@ -148,7 +148,6 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8350.inf" ID="qcfgbclext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PowerManagement" Name="qcpepextension8350.inf" ID="qcpepextension8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\IOMMU" Name="qciommuext8350.inf" ID="qciommuext8350"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\OEM" Name="QcTreeExtOem8350.inf" ID="QcTreeExtOem8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\QCOM" Name="QcTreeExtQcom8350.inf" ID="QcTreeExtQcom8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8350.inf" ID="qcwlan_ext8350"/>
