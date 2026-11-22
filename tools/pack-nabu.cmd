@@ -1,7 +1,7 @@
 @echo off
 
 mkdir ..\..\Xiaomi-Drivers-Release
-del ..\..\Xiaomi-Drivers-Release\MiPad5-Drivers-Desktop.7z
+del ..\..\Xiaomi-Drivers-Release\XiaomiPad5-Drivers-Desktop.7z
 
 echo @echo off > ..\OnlineUpdater.cmd
 echo ^(NET FILE^|^|^(powershell -command Start-Process '%%0' -Verb runAs -ArgumentList '%%* '^&EXIT /B^)^)^>NUL 2^>^&1 >> ..\OnlineUpdater.cmd

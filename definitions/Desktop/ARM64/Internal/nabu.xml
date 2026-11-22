@@ -8,35 +8,35 @@
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\Bluetooth" Name="bthdefaults.inf" ID="bthdefaults"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\USBFn" Name="usbdefaults.inf" ID="usbdefaults"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480" Name="fsa4480.inf" ID="fsa4480"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\cs35l41" Name="cs35l41.inf" ID="cs35l41"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\Amplifier" Name="XiaomiPad5_cs35l41.inf" ID="XiaomiPad5_cs35l41"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Audio\OrientationMonitor" Name="OrientationMonitor.inf" ID="OrientationMonitor"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Touch" Name="nt36xxx.inf" ID="nt36xxx"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Audio\AudMiniport" Name="MiPad5_audmini.inf" ID="MiPad5_audmini"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Battery" Name="MiPad5_battminiclass.inf" ID="MiPad5_battminiclass"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Bluetooth\BTFMUART" Name="MiPad5_btfmuart.inf" ID="MiPad5_btfmuart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Camera\ISP" Name="MiPad5_camisp.inf" ID="MiPad5_camisp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Graphics\DXKM" Name="MiPad5_dx.inf" ID="MiPad5_dx"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Sensors\SSC" Name="Mipad5_sensors.inf" ID="Mipad5_sensors"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\I2C" Name="MiPad5_i2c.inf" ID="MiPad5_i2c"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\PMIC\ExternalIC" Name="pad5_pmiceic.inf" ID="pad5_pmiceic"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\SPI" Name="MiPad5_spi.inf" ID="MiPad5_spi"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\TrEE" Name="MiPad5_tree.inf" ID="MiPad5_tree"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\UART" Name="MiPad5_uart.inf" ID="MiPad5_uart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\XMKB" Name="NanosicFilter.inf" ID="NanosicFilter"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\WLAN" Name="MiPad5_wlan.inf" ID="MiPad5_wlan"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\ACDB" Name="MiPad5_acsp.inf" ID="MiPad5_acsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\AudMiniport" Name="MiPad5_audminiext.inf" ID="MiPad5_audminiext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\Device" Name="MiPad5_auddevext.inf" ID="MiPad5_auddevext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Bluetooth" Name="MiPad5_btext.inf" ID="MiPad5_btext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\FrontSensor" Name="MiPad5_camfrontext.inf" ID="MiPad5_camfrontext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\RearSensor" Name="MiPad5_camrearext.inf" ID="MiPad5_camrearext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\HexagonLoader" Name="MiPad5_pilext.inf" ID="MiPad5_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Sensors" Name="MiPad5_sensorsconfig.inf" ID="MiPad5_sensorsconfig"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Audio" Name="MiPad5_subextadsp.inf" ID="MiPad5_subextadsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Compute" Name="MiPad5_subextcdsp.inf" ID="MiPad5_subextcdsp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Modem" Name="MiPad5_subextmpss.inf" ID="MiPad5_subextmpss"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Sensors" Name="MiPad5_subextscss.inf" ID="MiPad5_subextscss"/>
-			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Settings\DeviceInfo" Name="MiPad5_DeviceInfo.inf" ID="MiPad5_DeviceInfo"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Keyboard" Name="XiaomiPad5_NanosicFilter.inf" ID="XiaomiPad5_NanosicFilter"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Drivers\Touch" Name="XiaomiPad5_nt36xxx.inf" ID="XiaomiPad5_nt36xxx"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Audio\AudMiniport" Name="XiaomiPad5_audmini.inf" ID="XiaomiPad5_audmini"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Battery" Name="XiaomiPad5_battminiclass.inf" ID="XiaomiPad5_battminiclass"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Bluetooth\BTFMUART" Name="XiaomiPad5_btfmuart.inf" ID="XiaomiPad5_btfmuart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Camera\ISP" Name="XiaomiPad5_camisp.inf" ID="XiaomiPad5_camisp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Graphics\DXKM" Name="XiaomiPad5_dx.inf" ID="XiaomiPad5_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\Sensors\SSC" Name="XiaomiPad5_sensors.inf" ID="XiaomiPad5_sensors"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\I2C" Name="XiaomiPad5_i2c.inf" ID="XiaomiPad5_i2c"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\PMIC\ExternalIC" Name="XiaomiPad5_pmiceic.inf" ID="XiaomiPad5_pmiceic"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\SPI" Name="XiaomiPad5_spi.inf" ID="XiaomiPad5_spi"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\TrEE" Name="XiaomiPad5_tree.inf" ID="XiaomiPad5_tree"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\SOC\UART" Name="XiaomiPad5_uart.inf" ID="XiaomiPad5_uart"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Drivers\WLAN" Name="XiaomiPad5_wlan.inf" ID="XiaomiPad5_wlan"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\ACDB" Name="XiaomiPad5_acsp.inf" ID="XiaomiPad5_acsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\AudMiniport" Name="XiaomiPad5_audminiext.inf" ID="XiaomiPad5_audminiext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Audio\Device" Name="XiaomiPad5_auddevext.inf" ID="XiaomiPad5_auddevext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Bluetooth" Name="XiaomiPad5_btext.inf" ID="XiaomiPad5_btext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\FrontSensor" Name="XiaomiPad5_camfrontext.inf" ID="XiaomiPad5_camfrontext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\RearSensor" Name="XiaomiPad5_camrearext.inf" ID="XiaomiPad5_camrearext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\HexagonLoader" Name="XiaomiPad5_pilext.inf" ID="XiaomiPad5_pilext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Sensors" Name="XiaomiPad55_sensorsconfig.inf" ID="XiaomiPad5_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Audio" Name="XiaomiPad5_subextadsp.inf" ID="XiaomiPad5_subextadsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Compute" Name="XiaomiPad5_subextcdsp.inf" ID="XiaomiPad5_subextcdsp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Modem" Name="XiaomiPad5_subextmpss.inf" ID="XiaomiPad5_subextmpss"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Sensors" Name="XiaomiPad5_subextscss.inf" ID="XiaomiPad5_subextscss"/>
+			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Settings\DeviceInfo" Name="XiaomiPad5_DeviceInfo.inf" ID="XiaomiPad5_DeviceInfo"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
 			<DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
 		    <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
