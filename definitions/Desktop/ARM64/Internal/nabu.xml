@@ -31,7 +31,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\FrontSensor" Name="XiaomiPad5_camfrontext.inf" ID="XiaomiPad5_camfrontext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Camera\RearSensor" Name="XiaomiPad5_camrearext.inf" ID="XiaomiPad5_camrearext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\HexagonLoader" Name="XiaomiPad5_pilext.inf" ID="XiaomiPad5_pilext"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Sensors" Name="XiaomiPad55_sensorsconfig.inf" ID="XiaomiPad5_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Sensors" Name="XiaomiPad5_sensorsconfig.inf" ID="XiaomiPad5_sensorsconfig"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Audio" Name="XiaomiPad5_subextadsp.inf" ID="XiaomiPad5_subextadsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Compute" Name="XiaomiPad5_subextcdsp.inf" ID="XiaomiPad5_subextcdsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Nabu\Platform\Extensions\Subsystems\Modem" Name="XiaomiPad5_subextmpss.inf" ID="XiaomiPad5_subextmpss"/>
